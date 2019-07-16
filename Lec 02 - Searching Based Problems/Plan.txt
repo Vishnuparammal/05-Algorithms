@@ -1,0 +1,7 @@
+1. Lower and Upper Bound
+2. Help Fredo Problem
+3. Kriti and her Birthday Gift Problem
+4. Zero XOR Problem
+5. Monk and Special Integer Problem
+6. Monk and Chocolates problem
+7. Bugs Problem
