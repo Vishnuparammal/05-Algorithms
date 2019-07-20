@@ -1,6 +1,7 @@
-/*
-	Given a sorted array of n distinct integers where each integer is in the range from 0 to m-1 
-	and m > n. Find the smallest number that is missing from the array.
+/*	PROBLEM: 
+	Given a sorted array of n distinct integers where each integer 
+	is in the range from 0 to m-1 and m > n. Find the smallest 
+	number that is missing from the array.
 
 Examples
 	Input: {0, 1, 2, 6, 9}, n = 5, m = 10
@@ -16,16 +17,19 @@ Examples
 	Output: 8
 	
 METHOD 1: LINEAR SEARCH
-	If arr[0] is not 0, return 0. Otherwise traverse the input array starting from index 0, and for 
-	each pair of elements a[i] and a[i+1], find the difference between them. if the difference is 
-	greater than 1 then a[i]+1 is the missing number.
+	If arr[0] is not 0, return 0. Otherwise traverse the input array 
+	starting from index 0, and for each pair of elements a[i] and a[i+1], 
+	find the difference between them. if the difference is greater 
+	than 1 then a[i]+1 is the missing number.
 
-Time Complexity: O(n)
+	Time Complexity: O(n)
 
 METHOD 2: MODIFIED BINARY SEARCH
 
-	In the standard Binary Search process, the element to be searched is compared with the middle 
-	element and on the basis of comparison result, we decide whether to search is over or to go to 
+	In the standard Binary Search process, the element to be 
+	searched is compared with the middle element and on the 
+	basis of comparison result, we decide whether to search 
+	is over or to go to 
 	left half or right half.
 	In this method, we modify the standard Binary Search algorithm to compare the middle element 
 	with its index and make decision on the basis of this comparison.
