@@ -1,0 +1,6 @@
+1. Help Fredo Problem
+2. Kriti and her Birthday Gift Problem
+3. Zero XOR Problem
+4. Monk and Special Integer Problem
+5. Monk and Chocolates problem
+6. Bugs Problem
