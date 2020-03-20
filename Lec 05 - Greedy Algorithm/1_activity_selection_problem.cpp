@@ -41,6 +41,10 @@ This gives a hint that Greedy Algorithm MAY apply
 3. Choose the next activity such that its start time is greater than
     or equal to the end time of previous activity.
 
+We will be revising:
+1. sorting
+2. pairs
+
 */
 
 #include<iostream>
