@@ -54,11 +54,9 @@ bool compare( pair<int,int> a, pair<int,int> b){
 }
 
 int activitySelection( pair<int,int>* time,int n){
-    cout<<"func"<<endl;
     sort(time, time+n, compare);
     int count = 1;
     for(int i=1,j=0; i<n; i++){
-        cout<<"inloop"<<endl;
         if(time[i].first >= time[j].second){
             count++;
             j=i;
@@ -76,7 +74,7 @@ int main(){
         time[i] = make_pair(start,end);
     }
 
-    cout<< activitySelection(time,n)<<endl;
+    cout<< "answer: "<< activitySelection(time,n)<< endl;
 
     return 0;
 }
